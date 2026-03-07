@@ -1,0 +1,19 @@
+{
+  "name": "iframe-resize-controller",
+  "private": false,
+  "license": "MIT",
+  "type": "module",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielmiller/iframe-resizer-controller.git"
+  },
+  "devDependencies": {
+    "@open-iframe-resizer/core": "^2.3.1",
+    "esbuild": "^0.27.3",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "build": "esbuild src/index.ts --format=esm --minify --outdir=./dist"
+  }
+}
